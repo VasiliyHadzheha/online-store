@@ -1,0 +1,101 @@
+[
+{
+  "name": "Xiaomi Poco X4 pro",
+  "qty": 1,
+  "releaseDate": 2014,
+  "manufacturer": "Xiaomi",
+  "color": "black",
+  "camerasQty": "2",
+  "isPopular": false,
+  "image": "/Xiaomi-Poco-X4-pro.jpg",
+  "mobilesLeft": "30"
+},
+{
+  "name": "Samsung Galaxy S21",
+  "qty": 2,
+  "releaseDate": 2019,
+  "manufacturer": "Samsung",
+  "color": "white",
+  "camerasQty": "3",
+  "isPopular": false,
+  "image": "/Samsung-Galaxy-S21.jpg",
+  "mobilesLeft": "30"
+},
+{
+  "name": "Apple iPhone 12",
+  "qty": 2,
+  "releaseDate": 2010,
+  "manufacturer": "Apple",
+  "color": "blue",
+  "camerasQty": "3",
+  "isPopular": false,
+  "image": "/Apple-iPhone-12.jpg",
+  "mobilesLeft": "30"
+},
+{
+  "name": "Samsung Galaxy S20",
+  "qty": 3,
+  "releaseDate": 2022,
+  "manufacturer": "Samsung",
+  "color": "white",
+  "camerasQty": "1",
+  "isPopular": false,
+  "image": "/Samsung-Galaxy-S20.jpg",
+  "mobilesLeft": "30"
+},
+{
+  "name": "Xiaomi Redmi Note 11",
+  "qty": 4,
+  "releaseDate": 2012,
+  "manufacturer": "Xiaomi",
+  "color": "black",
+  "camerasQty": "1",
+  "isPopular": false,
+  "image": "/Xiaomi-Redmi-Note-11.jpg",
+  "mobilesLeft": "30"
+},
+{
+  "name": "Samsung Galaxy A03",
+  "qty": 5,
+  "releaseDate": 2013,
+  "manufacturer": "Samsung",
+  "color": "blue",
+  "camerasQty": "2",
+  "isPopular": false,
+  "image": "/Samsung-Galaxy-A03.jpg",
+  "mobilesLeft": "30"
+},
+{
+  "name": "Xiaomi Redmi 9C 3/64gb",
+  "qty": 6,
+  "releaseDate": 2011,
+  "manufacturer": "Xiaomi",
+  "color": "black",
+  "camerasQty": "2",
+  "isPopular": false,
+  "image": "/Xiaomi-Redmi-9C-3-64gb.jpg",
+  "mobilesLeft": "30"
+},
+{
+  "name": "Apple iPhone SE",
+  "qty": 7,
+  "releaseDate": 2007,
+  "manufacturer": "Apple",
+  "color": "white",
+  "camerasQty": "1",
+  "isPopular": false,
+  "image": "/Apple-iPhone-SE.jpg",
+  "mobilesLeft": "30"
+},
+{
+  "name": "Nokia 3310",
+  "qty": 1,
+  "releaseDate": 2000,
+  "manufacturer": "Nokia",
+  "color": "dark-blue",
+  "camerasQty": "0",
+  "isPopular": true,
+  "image": "/Nokia-3310.jpg",
+  "mobilesLeft": "30"
+}
+]
