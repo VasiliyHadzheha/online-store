@@ -32,9 +32,9 @@ function MainPageDisplay() {
       }
     }
 
-    // if (isGoodPopular !== isPopular) {
-    //   return false;
-    // }
+    if (isPopular == true && isGoodPopular !== isPopular) {
+      return false;
+    }
 
     return true;
   }

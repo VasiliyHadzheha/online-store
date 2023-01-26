@@ -8,7 +8,7 @@
   "camerasQty": "2",
   "isPopular": false,
   "image": "/Xiaomi-Poco-X4-pro.jpg",
-  "mobilesLeft": "30"
+  "mobilesLeft": "20"
 },
 {
   "name": "Samsung Galaxy S21",
@@ -19,7 +19,7 @@
   "camerasQty": "3",
   "isPopular": false,
   "image": "/Samsung-Galaxy-S21.jpg",
-  "mobilesLeft": "30"
+  "mobilesLeft": "34"
 },
 {
   "name": "Apple iPhone 12",
@@ -30,7 +30,7 @@
   "camerasQty": "3",
   "isPopular": false,
   "image": "/Apple-iPhone-12.jpg",
-  "mobilesLeft": "30"
+  "mobilesLeft": "10"
 },
 {
   "name": "Samsung Galaxy S20",
@@ -41,7 +41,7 @@
   "camerasQty": "1",
   "isPopular": false,
   "image": "/Samsung-Galaxy-S20.jpg",
-  "mobilesLeft": "30"
+  "mobilesLeft": "22"
 },
 {
   "name": "Xiaomi Redmi Note 11",
@@ -52,7 +52,7 @@
   "camerasQty": "1",
   "isPopular": false,
   "image": "/Xiaomi-Redmi-Note-11.jpg",
-  "mobilesLeft": "30"
+  "mobilesLeft": "6"
 },
 {
   "name": "Samsung Galaxy A03",
@@ -74,7 +74,7 @@
   "camerasQty": "2",
   "isPopular": false,
   "image": "/Xiaomi-Redmi-9C-3-64gb.jpg",
-  "mobilesLeft": "30"
+  "mobilesLeft": "99"
 },
 {
   "name": "Apple iPhone SE",
@@ -85,7 +85,7 @@
   "camerasQty": "1",
   "isPopular": false,
   "image": "/Apple-iPhone-SE.jpg",
-  "mobilesLeft": "30"
+  "mobilesLeft": "67"
 },
 {
   "name": "Nokia 3310",
@@ -96,6 +96,6 @@
   "camerasQty": "0",
   "isPopular": true,
   "image": "/Nokia-3310.jpg",
-  "mobilesLeft": "30"
+  "mobilesLeft": "1"
 }
 ]

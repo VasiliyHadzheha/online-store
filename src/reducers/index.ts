@@ -43,10 +43,10 @@ export function reducer(state = defaultState, action: any) {
       newState.filters.byValue.manufacturer = action.payload
       return newState
     }
-    // case 'POPULAR_FLAG': {
-    //   newState.filters.byValue.isPopular = action.payload
-    //   return newState
-    // }
+    case 'POPULAR_FLAG': {
+      newState.filters.byValue.isPopular = action.payload
+      return newState
+    }
     case 'RESET': {
       return defaultState
     }
