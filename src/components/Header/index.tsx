@@ -1,5 +1,5 @@
 import React from "react";
-import './index.sass'
+import './index.sass';
 
 function Header() {
   return (

@@ -1,6 +1,6 @@
-import { stat } from "fs"
+import { stat } from "fs";
 import { act } from "react-dom/test-utils";
-import { contentSortArray } from "../constants"
+import { contentSortArray } from "../constants";
 
 const defaultState = {
   filters: {
@@ -23,35 +23,44 @@ const defaultState = {
 
 export function reducer(state = defaultState, action: any) {
   const newState = JSON.parse(JSON.stringify(state));
-  console.log(action, newState)
 
   switch (action.type) {
-
     case 'SEARCH_TEXT': {
-      newState.filters.search.searchBar = action.payload
-      return newState
+      newState.filters.search.searchBar = action.payload;
+      return newState;
     }
     case 'CHANGE_COLOR': {
-      newState.filters.byValue.colors = action.payload
-      return newState
+      newState.filters.byValue.colors = action.payload;
+      return newState;
     }
     case 'CAMERAS': {
-      newState.filters.byValue.camerasNumber = action.payload
-      return newState
+      newState.filters.byValue.camerasNumber = action.payload;
+      return newState;
     }
     case 'MANUFACTURER': {
-      newState.filters.byValue.manufacturer = action.payload
-      return newState
+      newState.filters.byValue.manufacturer = action.payload;
+      return newState;
     }
     case 'POPULAR_FLAG': {
-      newState.filters.byValue.isPopular = action.payload
-      return newState
+      newState.filters.byValue.isPopular = action.payload;
+      return newState;
+    }
+    case 'RELEASE_DATE': {
+      newState.filters.byRange.releaseDate = action.payload;
+      return newState;
+    }
+    case 'MOBILES_LEFT': {
+      newState.filters.byRange.mobilesLeft = action.payload;
+      return newState;
+    }
+    case 'SELECT_SORT_TYPE': {
+      newState.filters.search.sort = action.payload;
+      return newState;
     }
     case 'RESET': {
-      return defaultState
+      return defaultState;
     }
-    
     default: 
-      return state
+      return state;
   }
 }

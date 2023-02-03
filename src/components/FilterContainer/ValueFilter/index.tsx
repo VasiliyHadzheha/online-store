@@ -1,14 +1,14 @@
 import React from "react";
-import './index.sass'
+import './index.sass';
 import {useDispatch, useSelector} from 'react-redux';
 
 function FilterOne() {
-  const dispatch = useDispatch()
-  const createActionChangeColor = (e: any) => dispatch({type: 'CHANGE_COLOR', payload: e.target.id})
-  const createActionCamerasQty = (element: any) => dispatch({type: 'CAMERAS', payload: element})
-  const reset = (e: any) => dispatch({type: 'RESET', payload: e.target.id})
-  const isPopular = (e: any) => dispatch({type: 'POPULAR_FLAG', payload: e.target.checked})
-  const createActionManufacturer = (e: any) => dispatch({type: 'MANUFACTURER', payload: e.target.id})
+  const dispatch = useDispatch();
+  const createActionChangeColor = (e: any) => dispatch({type: 'CHANGE_COLOR', payload: e.target.id});
+  const createActionCamerasQty = (element: any) => dispatch({type: 'CAMERAS', payload: element});
+  const reset = (e: any) => dispatch({type: 'RESET', payload: e.target.id});
+  const isPopular = (e: any) => dispatch({type: 'POPULAR_FLAG', payload: e.target.checked});
+  const createActionManufacturer = (e: any) => dispatch({type: 'MANUFACTURER', payload: e.target.id});
 
 
   return (
